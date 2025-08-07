@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Stylish Admin Dashboard</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="dashboard">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="logo">🌐 AdminUI</div>
+      <nav>
+        <a href="#"><span>🏠</span> Dashboard</a>
+        <a href="#"><span>📊</span> Reports</a>
+        <a href="#"><span>👤</span> Users</a>
+        <a href="#"><span>⚙️</span> Settings</a>
+      </nav>
+    </aside>
+
+    <!-- Header -->
+    <header class="header">
+      <div class="header-title">
+        <h1>Overview</h1>
+        <p class="greeting">👋 Welcome back, Admin! Here's what's happening today.</p>
+      </div>
+      <label class="switch">
+        <input type="checkbox" id="theme-toggle">
+        <span class="slider round"></span>
+      </label>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+      <div class="card gradient">
+        <h3>💡 Insights</h3>
+        <p>1.2K this week</p>
+      </div>
+      <div class="card gradient">
+        <h3>📈 Growth</h3>
+        <p>58% increase</p>
+      </div>
+      <div class="card gradient">
+        <h3>🔔 Alerts</h3>
+        <p>9 new alerts</p>
+      </div>
+      <div class="card chart-card glass">
+        <canvas id="myChart"></canvas>
+      </div>
+    </main>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
