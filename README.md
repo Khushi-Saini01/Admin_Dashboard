@@ -18,7 +18,8 @@ A modern, responsive, and visually stunning admin dashboard built using **HTML**
 
 ## 🖼️ Preview
 
-![Dashboard Preview](<img width="1841" height="909" alt="Screenshot 2025-08-07 095806" src="https://github.com/user-attachments/assets/03bcf7cf-e882-49ca-8046-f47e45ad1492" />)
+![Dashboard Preview]
+<img width="1841" height="909" alt="Screenshot 2025-08-07 095806" src="https://github.com/user-attachments/assets/03bcf7cf-e882-49ca-8046-f47e45ad1492" />
 <img width="1887" height="919" alt="Screenshot 2025-08-07 095836" src="https://github.com/user-attachments/assets/2b1e4d3d-d796-4a36-894f-415a688ed48c" />
 
 ---
